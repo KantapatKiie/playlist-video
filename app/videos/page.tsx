@@ -7,15 +7,17 @@ export default async function Home() {
   return (
     <div className="bg-neutral-900 rounded-lg h-full w-full overflow-hidden overflow-y-auto">
       <Header>
-        <div className="mb-2">
-          <h1 className="text-white text-3xl font-semibold">
-            <a href="/">Main Page</a>
-          </h1>
+        <div className="grid grid-rows-2 grid-flow-col gap-0">
+          <div className="row-span-2 col-span-0">
+            <h1 className="text-white text-3xl font-semibold">
+              <a href="/">Main Page</a>
+            </h1>
+          </div>
         </div>
       </Header>
       <div className="mt-2 mb-7 px-6">
-        <div className="fle justify-between items-center">
-          <h1 className="text-white text-2xl font-semibold">Newest video</h1>
+        <div className="fle justify-between items-center  mt-12">
+          <h1 className="text-white text-2xl font-semibold">List video</h1>
         </div>
         <div>
           <PageContent videos={videoList} />
