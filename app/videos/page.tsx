@@ -10,7 +10,7 @@ export default async function Home() {
         <div className="grid grid-rows-2 grid-flow-col gap-0">
           <div className="row-span-2 col-span-0">
             <h1 className="text-white text-3xl font-semibold">
-              <a href="/">Main Page</a>
+              <a href="/">Back</a>
             </h1>
           </div>
         </div>
@@ -57,6 +57,46 @@ const videoList: Song[] = [
     title: "Video D",
     author: "Developer",
     video_path: "https://www.youtube.com/watch?v=vJoNqBZ9QlM",
+    image_path:
+      "https://images.unsplash.com/photo-1464375117522-1311d6a5b81f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2250&q=80",
+  },{
+    id: "5",
+    title: "Video D",
+    author: "Developer",
+    video_path: "https://www.youtube.com/watch?v=g6bn6XrhYdc",
+    image_path:
+      "https://images.unsplash.com/photo-1464375117522-1311d6a5b81f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2250&q=80",
+  },
+  {
+    id: "6",
+    title: "Video E",
+    author: "Developer",
+    video_path: "https://www.youtube.com/watch?v=8JbzXz_DzXQ",
+    image_path:
+      "https://images.unsplash.com/photo-1464375117522-1311d6a5b81f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2250&q=80",
+  },
+
+  {
+    id: "7",
+    title: "Video E",
+    author: "Developer",
+    video_path: "https://www.youtube.com/watch?v=RmrVwqbYbFU",
+    image_path:
+      "https://images.unsplash.com/photo-1464375117522-1311d6a5b81f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2250&q=80",
+  },
+  {
+    id: "8",
+    title: "Video E",
+    author: "Developer",
+    video_path: "https://www.youtube.com/watch?v=UJNX6y1FQI4",
+    image_path:
+      "https://images.unsplash.com/photo-1464375117522-1311d6a5b81f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2250&q=80",
+  },
+  {
+    id: "9",
+    title: "Video E",
+    author: "Developer",
+    video_path: "https://www.youtube.com/watch?v=FjHGZj2IjBk",
     image_path:
       "https://images.unsplash.com/photo-1464375117522-1311d6a5b81f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2250&q=80",
   },
