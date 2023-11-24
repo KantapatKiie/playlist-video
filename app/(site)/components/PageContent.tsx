@@ -14,7 +14,7 @@ const PageContent = ({ videos }: Props) => {
 
   return (
     <div
-      className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-4 m-4"
+      className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-4 m-8"
       style={{
         placeItems: "center",
       }}
@@ -27,7 +27,7 @@ const PageContent = ({ videos }: Props) => {
           playing={false}
           controls={true}
           light={true}
-          width={"90%"}
+          width={"100%"}
         />
       ))}
     </div>
