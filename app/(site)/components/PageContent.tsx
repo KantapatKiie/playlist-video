@@ -13,14 +13,21 @@ const PageContent = ({ videos }: Props) => {
   }
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-4 mt-4">
-      {videos.map((item) => (
+    <div
+      className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-3 gap-4 m-4"
+      style={{
+        placeItems: "center",
+      }}
+    >
+      {videos.map((item, index) => (
         <ReactPlayer
+          key={index}
           className="videoFrame"
           url={item.video_path}
           playing={false}
           controls={true}
           light={true}
+          width={"90%"}
         />
       ))}
     </div>

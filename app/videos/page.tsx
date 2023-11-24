@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "@/components/Header";
-import ListItem from "@/components/ListItem";
-import PageContent from "./components/PageContent";
+import PageContent from "../(site)/components/PageContent";
 import { Song } from "@/types";
 
 export default async function Home() {
@@ -9,9 +8,8 @@ export default async function Home() {
     <div className="bg-neutral-900 rounded-lg h-full w-full overflow-hidden overflow-y-auto">
       <Header>
         <div className="mb-2">
-          {" "}
           <h1 className="text-white text-3xl font-semibold">
-            <a href="/videos">Video Page</a>
+            <a href="/">Main Page</a>
           </h1>
         </div>
       </Header>
@@ -57,22 +55,6 @@ const videoList: Song[] = [
     title: "Video D",
     author: "Developer",
     video_path: "https://www.youtube.com/watch?v=vJoNqBZ9QlM",
-    image_path:
-      "https://images.unsplash.com/photo-1464375117522-1311d6a5b81f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2250&q=80",
-  },
-  {
-    id: "5",
-    title: "Video D",
-    author: "Developer",
-    video_path: "https://www.youtube.com/watch?v=g6bn6XrhYdc",
-    image_path:
-      "https://images.unsplash.com/photo-1464375117522-1311d6a5b81f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2250&q=80",
-  },
-  {
-    id: "6",
-    title: "Video E",
-    author: "Developer",
-    video_path: "https://www.youtube.com/watch?v=8JbzXz_DzXQ",
     image_path:
       "https://images.unsplash.com/photo-1464375117522-1311d6a5b81f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2250&q=80",
   },
